@@ -12,12 +12,10 @@ import javax.validation.constraints.NotNull;
 public class Convidado {
 	@Id
 	@Column
-	@NotEmpty
 	@NotNull
 	private String rg;
 	
 	@Column
-	@NotEmpty
 	@NotNull
 	private String nome;
 	

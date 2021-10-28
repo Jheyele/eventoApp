@@ -25,22 +25,18 @@ public class Evento implements Serializable{
 	private long id;
 	
 	@Column
-	@NotEmpty
 	@NotNull
 	private String nome;
 	
 	@Column
-	@NotEmpty
 	@NotNull
 	private String local;
 	
 	@Column
-	@NotEmpty
 	@NotNull
 	private String data;
 	
 	@Column
-	@NotEmpty
 	@NotNull
 	private String horario;
 	
